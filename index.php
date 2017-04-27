@@ -7,9 +7,9 @@
     fwrite($fp, $data);
   } 
 if(isset($_POST['submit'])){
-  $ftp_server="ftp.drivehq.com";
-  $ftp_user_name="tazaki";
-  $ftp_user_pass="qwerty2017";
+  $ftp_server="abc.com";
+  $ftp_user_name="sample";
+  $ftp_user_pass="sample";
   $file = "mk.txt";
   $remote_file = "mk.txt";
   $conn_id = ftp_connect($ftp_server);
